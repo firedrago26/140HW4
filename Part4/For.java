@@ -1,6 +1,6 @@
 public class For extends Seq {
 
-	int first, last, step;
+	protected int first, last, step;
 	static int count;
 
 	public For(int first, int last, int step) {

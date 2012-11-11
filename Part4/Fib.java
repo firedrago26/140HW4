@@ -1,7 +1,7 @@
 public class Fib extends Seq {
 	
-	int first1, first2, last;
-	static int count;
+	protected int first1, first2, last;
+	static int count=0;
 	
 	public Fib(int first1, int first2, int last) {
 		this.first1=first1;
