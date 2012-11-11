@@ -39,7 +39,7 @@ public class FibIt implements SeqIt {   //implements SeqIt means it contains fun
 			}
 		}
 		else {
-			System.err.println("FibIt is past the end");
+			System.err.println("FibIt called past end");
 			System.exit(1);
 		}
 		return currentVal;

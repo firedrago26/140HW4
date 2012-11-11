@@ -32,7 +32,7 @@ public class ForIt implements SeqIt {
 			return	nextElement;
 		}
 		else {
-			System.err.println("ForIt is past end");
+			System.err.println("ForIt called past end");
 			System.exit(1);
 			return currentVal;
 		}
